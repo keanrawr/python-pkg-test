@@ -22,8 +22,8 @@ poetry build
 
 This is a very informal project, so here are some milestiones off the top of my head.
 
-- [ ] Build a hello world package
-- [ ] Create tests for the code
+- [x] Build a hello world package
+- [x] Create tests for the code
 - [ ] Add github actions to run tests and build
 - [ ] Publish to aws _codeArtifact_, using github actions
 - [ ] Add github action to scan code for vulnerabilities
