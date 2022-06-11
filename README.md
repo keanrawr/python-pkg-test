@@ -24,8 +24,8 @@ This is a very informal project, so here are some milestiones off the top of my 
 
 - [x] Build a hello world package
 - [x] Create tests for the code
-- [ ] Add github actions to run tests and build
-- [ ] Publish to aws _codeArtifact_, using github actions
+- [x] Add github actions to run tests and build
+- [x] Publish to aws _codeArtifact_, using github actions
 - [ ] Add github action to scan code for vulnerabilities
 - [ ] Add github action to tag release versions
 - [ ] Add some real functions, like a small optimization class

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "python_pkg"
 version = "0.1.0"
-description = ""
+description = "Hello world package example to learn about pypi packages and aws codeartifact"
 authors = ["keanrawr <the.keanraw@gmail.com>"]
 
 [tool.poetry.dependencies]
@@ -13,3 +13,8 @@ pytest = "^7.1.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "aws"
+url = "https://rawr-023466420674.d.codeartifact.us-east-1.amazonaws.com/pypi/sandbox/"
+default = true
