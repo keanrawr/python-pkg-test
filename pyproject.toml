@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python_pkg"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hello world package example to learn about pypi packages and aws codeartifact"
 authors = ["keanrawr <the.keanraw@gmail.com>"]
 
