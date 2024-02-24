@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         python-version: ['3.8', '3.9', '3.10']
-        poetry-version: [1.1.12]
+        poetry-version: [1.7.1]
     runs-on: [ubuntu-latest]
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
       - name: Set up poetry
         uses: abatilo/actions-poetry@v2.0.0
         with:
-          poetry-version: 1.1.12
+          poetry-version: 1.7.1
       - uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
